@@ -16,6 +16,7 @@ class Lane{
                 this.strings.splice(i, 1);
             }
           }
+
           // If there is a string
           if (this.strings.length != 0){
             switch(this.letter){
@@ -23,6 +24,7 @@ class Lane{
                 case " ":
                     // Normal Strings
                     break;
+    
                 default:
                     if (this.strings[0].y > (windowHeight / 2) + (fontSize / 2) && !this.laneTripped){
 
@@ -59,6 +61,7 @@ class Lane{
                                     this.strings.splice(0, 1)
                                 }
                             }
+
                             pop()
                         }
                     }
@@ -70,6 +73,8 @@ class Lane{
                 this.available = true;
               }
           }
+        
+
     }
 
     spawnString(){
@@ -84,5 +89,7 @@ class Lane{
             // console.log(`${this.strings[i].updateCharacters()}`)
             this.strings[i].updateCharacters();
         }
+
+        // console.log(this.strings.length)
     }
 }

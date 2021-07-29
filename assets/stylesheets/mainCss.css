@@ -1,46 +1,118 @@
 @font-face { font-family: CustomFont; src: url('/assets/couture-bld.otf');} /* Font from https://www.dafont.com/couture.font */
 
+/* 
+Nav Bar
+ */
+#navBar {
+    height: 45px;
+    width: 100%;
+    position: fixed;
+    opacity: 85%;
+    top: 0;
+    left: 0;
+    background-color: #e7e7e7;
+    display: flex;
+    justify-content: space-between;
+    z-index: 4;
+    align-items: center;
+    padding-left: 20px;
+    box-shadow: 2px 2px 8px black;
+}
+
+#navBar p {
+    padding-top: 26px;
+    font-weight: bolder;
+    font-size: 17px;
+    font-family: customFont;
+    color: black;
+    text-shadow: 3px 3px 4px white;
+}
+
+#navButton {
+    cursor: pointer;
+    width: 40px;
+}
+
+/* 
+Side Bar
+ */
+#sideBar { 
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    top: 45px;
+    left: -18%;
+    background-color: #e7e7e7;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-shadow: 0px 0px 10px black;
+    transition: .6s ease-in-out;
+    visibility: hidden;
+}
+
+#links {
+    font-family: CustomFont, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+    font-weight: bolder;
+    text-align: left;
+    /* padding: 10px; */
+
+    text-decoration: none;
+    color: black;
+    
+}
+
+#links a:visited, #links a:focus, #links a:active, #links a{
+    text-decoration: none; 
+    color: black;
+}
+
+#links a:hover {
+    text-decoration: none;
+    color: black;
+    text-shadow: 2px 2px 8px lime;
+}
+
+/* 
+Content Pane
+ */
 #contentPane {
     width: 80%;
     flex-direction: column;
+    margin-left: 0px;
     padding-left: 10%;
     padding-right: 10%;
     transition: .6s ease-in-out;
-    padding-top: 150px;
-    /* Comment and un comment depending if you want to see and edit content pane size */
+    padding-top: 50px;
     /* border-style: solid; */
 }
 
-body { /* Pushes the scroll button down */
-    padding-top: 42%;
-    padding-bottom: 50px;
+
+#matrix {
+    background-color: #d3d3d3;
 }
 
-/* Scroll down icon */
-#scrollDown {
-    width: 50px;
-    cursor: pointer;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#UnnamedGame {
 }
 
-/* Stylings for all project divs on home screen */
 .project {
     width: 100%;
     box-shadow: 1px 1px 8px black;
     background-color: #e6e6e6;
     /* padding: 10px; */
     margin: 0px;
-    border-radius: 3px;
     /* border-style: solid; */
 }
+
 .project h1 {
     font-weight: bolder;
 }
+
 .project p, .project h1 {
     padding: 15px;
 }
+
 .project img, .project a {
     display: block;
     margin-left: auto;
@@ -48,4 +120,17 @@ body { /* Pushes the scroll button down */
     text-align: center;
     text-decoration: none;
     padding-bottom: 5px;
+}
+
+@media (max-width : 1000px){
+    #sideBar{
+        width: 100%;
+        left: -100%;
+    }
+}
+
+@media (max-width : 360){
+    #name {
+        font-size: 16px;
+    }
 }

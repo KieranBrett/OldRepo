@@ -5,29 +5,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/assets/stylesheets/mainCss.css">
   <link rel="stylesheet" href="/assets/stylesheets/skeleton.css">
   <link rel="stylesheet" href="/assets/stylesheets/normalize.css">
-  <!-- CSS File for the individual page -->
-  <link rel="stylesheet" href="/assets/stylesheets/mainCss.css">
-  <!-- CSS file for custom sidebar and nav bar -->
-  <link rel="stylesheet" href="/assets/stylesheets/navSideBars.css">
-  <script src="/assets/scripts/jquery-3.5.1.min.js"></script>
   <title>Landing Page</title>
 </head>
 
-<body style="background-color: #f3f3f3; box-sizing: border-box; background-image: url('assets/images/dunedin.jpg'); background-size: 100%; background-repeat: no-repeat; background-position-y: 45px;">
+<body style="background-color: #f3f3f3; box-sizing: border-box;">
+<div id="navBar">
+  <img src="assets/images/button_icon.png" id="navButton">
+  <p id="name" style="font-size: 24px;">Kieran Brett</p>
+  <a href="mailto:brett.kieran@hotmail.com"><p style="padding-right: 40px;">Contact</p></a> <!-- Padding accounts for the scroll bar -->
+</div>
 
-   <!-- Script for custom sidebar and nav bar -->
-  <script src="assets/sideBar.js"></script> 
-  <!-- Scroll down script icon--> 
-  <img src="assets/images/scroll_icon.png" id="scrollDown">
-  <!-- Content pane for everything to show -->
+<div id="sideBar">
+  <div id="links">
+    <a href="/Projects/Matrix">Matrix</a> <br>
+    <a href="/Projects/Matrix2">Matrix 2</a> <br>
+    <a href="/Projects/UnnamedGame/">Unnamed Game</a>
+  </div>
+</div>
+
 <div id="contentPane">
-
-  <!-- Projects Inserted Here -->
   <h1 style="font-size: 3.6em; color: #000000; font-family: customFont, Arial, Helvetica, sans-serif; text-shadow: 3px 3px 4px #727272; text-align: center;">Projects</h1>
-  <!-- Div for matrix projects  -->
   <div id="matrix" class="project">
+    <!-- Div for matrix projects  -->
     <h1>Matrix 1</h1>
     <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
       Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
@@ -46,15 +48,24 @@
     <h1>Unnamed Game: 2D Scroller</h1> 
     <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
       Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-      <img src="/assets/images/2dscroller_2.PNG"/ style="width: 40%;"/><br>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
+      
+      <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
         Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-      <img src="/assets/images/2dscroller_1.PNG"/ style="width: 40%;"/><br>
-      <a href="/Projects/UnnamedGame/">Launch Unnamed Game</a>
+
   </div>
 
+  <!-- Div for unnamed game project  -->
+  <div id="matrix" class="project">
+    <h1>Unnamed Game: 2D Scroller</h1> 
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
+      Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+      
+      <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
+        Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    
+  </div>
 </div>
 </body>
-<script src="assets/main.js"></script>
+<script src="/assets/sideBar.js"></script>
 </html>
 
