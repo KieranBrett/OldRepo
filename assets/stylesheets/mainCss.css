@@ -1,0 +1,51 @@
+@font-face { font-family: CustomFont; src: url('/assets/couture-bld.otf');} /* Font from https://www.dafont.com/couture.font */
+
+#contentPane {
+    width: 80%;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    transition: .6s ease-in-out;
+    padding-top: 150px;
+    /* Comment and un comment depending if you want to see and edit content pane size */
+    /* border-style: solid; */
+}
+
+body { /* Pushes the scroll button down */
+    padding-top: 42%;
+    padding-bottom: 50px;
+}
+
+/* Scroll down icon */
+#scrollDown {
+    width: 50px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Stylings for all project divs on home screen */
+.project {
+    width: 100%;
+    box-shadow: 1px 1px 8px black;
+    background-color: #e6e6e6;
+    /* padding: 10px; */
+    margin: 0px;
+    border-radius: 3px;
+    /* border-style: solid; */
+}
+.project h1 {
+    font-weight: bolder;
+}
+.project p, .project h1 {
+    padding: 15px;
+}
+.project img, .project a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 5px;
+}

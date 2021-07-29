@@ -1,0 +1,89 @@
+
+// I have way overused less in here
+// This is just so I can get a good understanding of how it works
+// I think I did just that
+
+@black: black;
+@white: #ffffff;
+@Cadbury:rgb(60, 10, 100);
+@text-align: center;
+
+@pad-large: 20px;
+@pad-small: 10px;
+@pad-tiny: 5px;
+
+.row{
+    text-align: @text-align;
+    background-color: @black;
+    font-weight: bold;
+    .addBorder(8px,@Cadbury);
+    .pad(@pad-large); // A lot cleaner to call a method than re write it a hundred times
+
+    header{
+        .addBorder(2px, @white);
+        color: @white;
+    }
+
+    div{
+        .pad(@pad-large);
+
+        section{
+            .pad(@pad-large);
+            .makeMeCadbury();
+        }
+    }
+}
+
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+}
+
+footer{
+    .pad(@pad-small);
+    .makeMeCadbury();
+    text-align: center;
+    font-weight: bold;
+}
+
+img{
+    padding: @pad-large;
+    width: 80%;
+}
+
+#gameScript {
+    align-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+@border-style: solid;
+@border-radius: 15px;
+
+// Adds a border where ever its called!!!
+.addBorder(@THICCness, @colour) {
+    border: @THICCness @border-style @colour;
+    border-radius: @border-radius;
+}
+
+// Can call a method within a method
+.makeMeCadbury(){
+    .addBorder(3px, @white);
+
+    background-color: @Cadbury;
+    color: @white;
+}
+
+// Changes size depending on the variable passed in. Methods in CSS
+.pad(@size) {
+    padding: @size;
+}

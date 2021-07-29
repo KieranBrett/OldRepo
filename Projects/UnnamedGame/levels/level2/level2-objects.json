@@ -1,0 +1,180 @@
+{
+    "boxes": [
+        {
+            "groupName": "Wall Block",
+            "breakable": false,
+            "positionX": "-100",
+            "positionY": "50",
+            "imageurl": "assets/images/object-wall-block-alt.png",
+            "health": "1000"
+        },
+        {
+            "groupName": "Wall Block",
+            "breakable": false,
+            "positionX": "7500",
+            "positionY": "0",
+            "imageurl": "assets/images/object-wall-block.png",
+            "health": "100"
+        },
+
+        {
+            "groupName": "firstGroup",
+            "breakable": false,
+            "positionX": "450",
+            "positionY": "600",
+            "imageurl": "assets/images/object-crate-small-alt.png",
+            "health": "500"
+        },
+
+
+        {
+            "groupName": "secondGroup",
+            "breakable": true,
+            "positionX": "1500",
+            "positionY": "450",
+            "imageurl": "assets/images/object-crate-large-cracked-alt.png",
+            "health": "300"
+        },
+        {
+            "groupName": "secondGroup",
+            "breakable": false,
+            "positionX": "1350",
+            "positionY": "600",
+            "imageurl": "assets/images/object-crate-small.png",
+            "health": "100"
+        },
+
+        {
+            "groupName": "secondGroupRoof",
+            "breakable": false,
+            "positionX": "1798",
+            "positionY": "305",
+            "imageurl": "assets/images/object-crate-small.png",
+            "health": "100"
+        },
+        {
+            "groupName": "secondGroupRoof",
+            "breakable": false,
+            "positionX": "1948",
+            "positionY": "305",
+            "imageurl": "assets/images/object-crate-small.png",
+            "health": "100"
+        },
+        {
+            "groupName": "secondGroupRoof",
+            "breakable": false,
+            "positionX": "2098",
+            "positionY": "305",
+            "imageurl": "assets/images/object-crate-small-alt.png",
+            "health": "100"
+        },
+        {
+            "groupName": "secondGroupRoof",
+            "breakable": false,
+            "positionX": "2548",
+            "positionY": "305",
+            "imageurl": "assets/images/object-crate-small-alt.png",
+            "health": "100"
+        },
+        {
+            "groupName": "secondGroupRoof",
+            "breakable": false,
+            "positionX": "2698",
+            "positionY": "305",
+            "imageurl": "assets/images/object-crate-small-alt.png",
+            "health": "100"
+        },
+        {
+            "groupName": "secondGroupRoof",
+            "breakable": false,
+            "positionX": "2848",
+            "positionY": "305",
+            "imageurl": "assets/images/object-crate-small-alt.png",
+            "health": "100"
+        },
+        {
+            "groupName": "secondGroupRoofBlock",
+            "breakable": false,
+            "positionX": "2990",
+            "positionY": "-350",
+            "imageurl": "assets/images/brick-light-full.png",
+            "health": "100"
+        },
+
+
+        {
+            "groupName": "thirdBlock",
+            "breakable": false,
+            "positionX": "3900",
+            "positionY": "350",
+            "imageurl": "assets/images/brick-light-full.png",
+            "health": "100"
+        },
+        {
+            "groupName": "thirdBlock",
+            "breakable": false,
+            "positionX": "4100",
+            "positionY": "500",
+            "imageurl": "assets/images/object-crate-large-alt.png",
+            "health": "100"
+        },
+
+        {
+            "groupName": "fourthBlock",
+            "breakable": false,
+            "positionX": "5300",
+            "positionY": "350",
+            "imageurl": "assets/images/brick-light-full.png",
+            "health": "100"
+        },
+        {
+            "groupName": "fourthBlock",
+            "breakable": false,
+            "positionX": "5300",
+            "positionY": "200",
+            "imageurl": "assets/images/object-crate-small.png",
+            "health": "100"
+        },
+        {
+            "groupName": "fourthBlock",
+            "breakable": true,
+            "positionX": "5000",
+            "positionY": "300",
+            "imageurl": "assets/images/object-crate-large-cracked-alt.png",
+            "health": "50"
+        },
+        {
+            "groupName": "fourthBlock",
+            "breakable": false,
+            "positionX": "5000",
+            "positionY": "600",
+            "imageurl": "assets/images/object-crate-small-alt.png",
+            "health": "100"
+        },
+        {
+            "groupName": "fourthBlock",
+            "breakable": false,
+            "positionX": "5150",
+            "positionY": "600",
+            "imageurl": "assets/images/object-crate-small.png",
+            "health": "100"
+        },
+
+        {
+            "groupName": "portal",
+            "breakable": false,
+            "positionX": "6795",
+            "positionY": "430",
+            "imageurl": "assets/images/portal-object-top.png",
+            "health": "100"
+        },
+        {
+            "groupName": "portal",
+            "breakable": false,
+            "positionX": "6785",
+            "positionY": "680",
+            "imageurl": "assets/images/portal-object-bottom.png",
+            "health": "100"
+        }
+    ]
+}

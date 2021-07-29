@@ -1,0 +1,120 @@
+{
+    "boxes": [
+        {
+            "groupName": "Wall Block",
+            "breakable": false,
+            "positionX": "-100",
+            "positionY": "50",
+            "imageurl": "assets/images/object-wall-block-alt.png",
+            "health": "1000"
+        },
+        {
+            "groupName": "Wall Block",
+            "breakable": false,
+            "positionX": "5300",
+            "positionY": "0",
+            "imageurl": "assets/images/object-wall-block.png",
+            "health": "100"
+        },
+
+        {
+            "groupName": "firstSteps",
+            "breakable": false,
+            "positionX": "1200",
+            "positionY": "450",
+            "imageurl": "assets/images/object-crate-large.png",
+            "health": "100"
+        },
+        {
+            "groupName": "firstSteps",
+            "breakable": false,
+            "positionX": "1050",
+            "positionY": "600",
+            "imageurl": "assets/images/object-crate-small-alt.png",
+            "health": "100"
+        },
+        {
+            "groupName": "firstSteps",
+            "breakable": false,
+            "positionX": "1500",
+            "positionY": "600",
+            "imageurl": "assets/images/object-crate-small-alt.png",
+            "health": "100"
+        },
+
+        {
+            "groupName": "doubleJump",
+            "breakable": false,
+            "positionX": "2200",
+            "positionY": "450",
+            "imageurl": "assets/images/object-crate-large.png",
+            "health": "100"
+        },
+        {
+            "groupName": "doubleJump",
+            "breakable": false,
+            "positionX": "2200",
+            "positionY": "150",
+            "imageurl": "assets/images/object-crate-large-alt.png",
+            "health": "100"
+        },
+        {
+            "groupName": "doubleJump",
+            "breakable": false,
+            "positionX": "2500",
+            "positionY": "450",
+            "imageurl": "assets/images/object-crate-large.png",
+            "health": "100"
+        },
+        {
+            "groupName": "shootEnemies",
+            "breakable": false,
+            "positionX": "2800",
+            "positionY": "600",
+            "imageurl": "assets/images/object-crate-small.png",
+            "health": "100"
+        },
+        {
+            "groupName": "shootEnemies",
+            "breakable": false,
+            "positionX": "2950",
+            "positionY": "600",
+            "imageurl": "assets/images/object-crate-small-alt.png",
+            "health": "100"
+        },
+        {
+            "groupName": "shootEnemies",
+            "breakable": false,
+            "positionX": "3100",
+            "positionY": "600",
+            "imageurl": "assets/images/object-crate-small-alt.png",
+            "health": "100"
+        },
+
+        {
+            "groupName": "shootEnemies",
+            "breakable": false,
+            "positionX": "3800",
+            "positionY": "450",
+            "imageurl": "assets/images/object-crate-large-alt.png",
+            "health": "100"
+        },
+
+        {
+            "groupName": "portal",
+            "breakable": false,
+            "positionX": "4795",
+            "positionY": "430",
+            "imageurl": "assets/images/portal-object-top.png",
+            "health": "100"
+        },
+        {
+            "groupName": "portal",
+            "breakable": false,
+            "positionX": "4785",
+            "positionY": "680",
+            "imageurl": "assets/images/portal-object-bottom.png",
+            "health": "100"
+        }
+    ]
+}

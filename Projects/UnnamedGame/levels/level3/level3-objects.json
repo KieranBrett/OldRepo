@@ -1,0 +1,37 @@
+{
+    "boxes": [
+        {
+            "groupName": "Wall Block",
+            "breakable": false,
+            "positionX": "-100",
+            "positionY": "50",
+            "imageurl": "assets/images/object-wall-block-alt.png",
+            "health": "1000"
+        },
+        {
+            "groupName": "Wall Block",
+            "breakable": false,
+            "positionX": "3000",
+            "positionY": "0",
+            "imageurl": "assets/images/object-wall-block.png",
+            "health": "100"
+        },
+
+        {
+            "groupName": "portal",
+            "breakable": false,
+            "positionX": "2295",
+            "positionY": "430",
+            "imageurl": "assets/images/portal-object-top.png",
+            "health": "100"
+        },
+        {
+            "groupName": "portal",
+            "breakable": false,
+            "positionX": "2285",
+            "positionY": "680",
+            "imageurl": "assets/images/portal-object-bottom.png",
+            "health": "100"
+        }
+    ]
+}

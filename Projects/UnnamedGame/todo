@@ -1,0 +1,13 @@
+Small Details:
+Upgrade Graphics on Player, Hud and some textures
+Adjust Bullet Hit registration, bullets splice instantly when touching any box, and bullet doesnt splice unless top side passes box y
+
+Bigger Features
+enemies drop weapons
+show current weapon stats
+Enemies only shoot when player is within certain distance
+Player keeps health, score and inventory selection through level change
+Guns sit on proper sides of players
+
+Need each gun to have max attributes
+

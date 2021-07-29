@@ -1,0 +1,10 @@
+{
+    "scenery": [
+        {
+            "groupName": "portal",
+            "positionX": "2300",
+            "positionY": "460",
+            "imageurl": "assets/images/portalScenery.png"
+        }
+    ]
+}

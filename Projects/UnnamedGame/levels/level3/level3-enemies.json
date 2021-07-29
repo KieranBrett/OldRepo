@@ -1,0 +1,14 @@
+{
+    "enemies": [
+        {
+            "groupName": "spawnBoss",
+            "positionX": "1500",
+            "positionY": "380",
+            "imageurl": "assets/images/boss-1.png",
+            "health": "10000",
+            "speed": "0",
+            "fireRate": "100",
+            "gunIndex": "2"
+        }
+    ]
+}

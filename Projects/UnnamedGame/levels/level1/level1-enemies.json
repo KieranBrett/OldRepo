@@ -1,0 +1,14 @@
+{
+    "enemies": [
+        {
+            "groupName": "spawnSoldier",
+            "positionX": "3400",
+            "positionY": "380",
+            "imageurl": "assets/images/boss-1.png",
+            "health": "300",
+            "speed": "1",
+            "fireRate": "30",
+            "gunIndex": "0"
+        }
+    ]
+}

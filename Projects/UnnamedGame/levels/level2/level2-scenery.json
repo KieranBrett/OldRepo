@@ -1,0 +1,67 @@
+{
+    "scenery": [
+        {
+            "groupName": "House",
+            "positionX": "-400",
+            "positionY": "150",
+            "imageurl": "assets/images/house-blue.png"
+        },
+        {
+            "groupName": "House",
+            "positionX": "300",
+            "positionY": "50",
+            "imageurl": "assets/images/house-large-green.png"
+        },
+        {
+            "groupName": "House",
+            "positionX": "1600",
+            "positionY": "50",
+            "imageurl": "assets/images/house-purple.png"
+        },
+        {
+            "groupName": "House",
+            "positionX": "2450",
+            "positionY": "150",
+            "imageurl": "assets/images/house-yellow.png"
+        },
+        {
+            "groupName": "secondGroupRoofBlock",
+            "positionX": "2990",
+            "positionY": "45",
+            "imageurl": "assets/images/brick-dark-full.png"
+        },
+
+        {
+            "groupName": "secondlotHouse",
+            "positionX": "4000",
+            "positionY": "50",
+            "imageurl": "assets/images/house-large-red-alt.png"
+        },
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "groupName": "secondGroupRoofBlock",
+            "positionX": "5700",
+            "positionY": "50",
+            "imageurl": "assets/images/thank-you.png"
+        },
+        {
+            "groupName": "secondGroupRoofBlock",
+            "positionX": "6800",
+            "positionY": "460",
+            "imageurl": "assets/images/portalScenery.png"
+        }
+    ]
+}

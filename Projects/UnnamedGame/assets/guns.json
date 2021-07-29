@@ -1,0 +1,11 @@
+{
+    "guns": [
+        {
+            "gunName": "startGun",
+            "bulletVel": 15,
+            "fireRate": 7,
+            "bulletSpread": 10,
+            "bulletDmg": 20
+        }
+    ]
+}

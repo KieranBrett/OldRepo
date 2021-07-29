@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  
+  <body>
+
+    <form id="form" style="text-align: center; padding: 20px;">
+      <p>String:<input type="text" name="" id="string" /></p>
+      <p>Text Colour:<input type="color" id="colour" /></p>
+    
+        
+      <br><input type="submit" value="Enter The Matrix"></input>
+    </form>
+    
+    <script>
+      let form = document.getElementById('form')
+      let string = document.getElementById("string")
+      let colour = document.getElementById("colour")
+      
+
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        setup(string.value, colour.value)
+        form.parentElement.removeChild(form)
+      })
+    </script>
+    <script src="TextString.js"></script>
+    <script src="Lane.js"></script>
+    <script src="LaneController.js"></script>
+    <script src="Character.js"></script>
+    <script src="StringController.js"></script>
+    <script src="sketch.js"></script>
+  </body>
+</html>

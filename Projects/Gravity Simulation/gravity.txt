@@ -1,0 +1,10 @@
+F = G*((X * Y) / r^2)
+
+F = Force of attraction between the two objects
+
+G = Universal Gravitational Constant
+    6.67408 * 10^-11
+
+X = Mass of the first object
+Y = Mass of the second object
+R = Distance between the centers of each object

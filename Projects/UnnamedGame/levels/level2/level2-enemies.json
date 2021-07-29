@@ -1,0 +1,84 @@
+{
+    "enemies": [
+        {
+            "groupName": "spawnSoldier",
+            "positionX": "1000",
+            "positionY": "520",
+            "imageurl": "assets/images/enemy-image.png",
+            "health": "300",
+            "speed": "4",
+            "fireRate": "30",
+            "gunIndex": "0"
+        },
+        {
+            "groupName": "secondGroup",
+            "positionX": "1800",
+            "positionY": "520",
+            "imageurl": "assets/images/enemy-image.png",
+            "health": "600",
+            "speed": "8",
+            "fireRate": "50",
+            "gunIndex": "0"
+        },
+        {
+            "groupName": "secondGroup",
+            "positionX": "1930",
+            "positionY": "520",
+            "imageurl": "assets/images/enemy-image.png",
+            "health": "600",
+            "speed": "8",
+            "fireRate": "50",
+            "gunIndex": "0"
+        },
+        {
+            "groupName": "secondGroup",
+            "positionX": "2060",
+            "positionY": "520",
+            "imageurl": "assets/images/enemy-image.png",
+            "health": "600",
+            "speed": "8",
+            "fireRate": "50",
+            "gunIndex": "0"
+        },
+        {
+            "groupName": "secondGroup",
+            "positionX": "2190",
+            "positionY": "520",
+            "imageurl": "assets/images/enemy-image.png",
+            "health": "600",
+            "speed": "8",
+            "fireRate": "50",
+            "gunIndex": "0"
+        },
+        {
+            "groupName": "secondGroup",
+            "positionX": "4600",
+            "positionY": "520",
+            "imageurl": "assets/images/enemy-image.png",
+            "health": "600",
+            "speed": "8",
+            "fireRate": "50",
+            "gunIndex": "0"
+        },
+        {
+            "groupName": "secondGroup",
+            "positionX": "4730",
+            "positionY": "520",
+            "imageurl": "assets/images/enemy-image.png",
+            "health": "600",
+            "speed": "8",
+            "fireRate": "50",
+            "gunIndex": "0"
+        },
+        {
+            "groupName": "secondGroup",
+            "positionX": "4860",
+            "positionY": "520",
+            "imageurl": "assets/images/enemy-image.png",
+            "health": "600",
+            "speed": "8",
+            "fireRate": "50",
+            "gunIndex": "0"
+        }
+    ]
+}
